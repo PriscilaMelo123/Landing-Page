@@ -1,127 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 2px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-
 body {
-    font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header {
+  padding-right: 30px;
+}
+.menu {
+  background-color: orange;
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu-foto {
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 35px;
 }
 
-.cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px;
+.menu-itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.menu-sobre {
+  padding-bottom: 20px;
+  color: white;
 }
 
-.cabecalho-imagem {
-    height: 72px;
+.menu-conhecimentos {
+  padding-bottom: 20px;
+  color: white;
 }
 
-.cabecalho-menu {
-    display: flex;
-    gap: 32px;
+.menu-objetivos {
+  color: white;
 }
 
-.cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px;
+.nome {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
 }
 
-.conteudo {
-    margin-bottom: 48px;
-    border-top: 0.4px solid #FFF2E7;
+.cor {
+  color: orange;
 }
 
-.conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+.endereco {
+  font-family: "arial";
+  font-size: 15px;
+  padding-bottom: 100px;
 }
 
-.conteudo-principal-escrito {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.email {
+  color: orange;
 }
 
-.conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 64px;
-    color: #FFF2E7;
+.conteudo-sobre {
+  font-family: "arial";
+  font-size: large;
+  padding-bottom: 30px;
 }
 
-.conteudo-principal-escrito-subtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #ECD6C4;
+.rede {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.diva {
+  padding-right: 340px;
+}
+.titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  color: orange;
 }
 
-.conteudo-principal-escrito-botao {
-    background-color: whitesmoke;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0,0,0.25);
-    border-radius: 20px;
-    font-family: 'sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #2f2325;
-    border-image: url(https://www.instagram.com/pritaismelo/);
-}
-
-.conteudo-principal-escrito-botao:hover {
-    background-color: rgba(236, 214, 196, 0.53);
-}
-
-.conteudo-principal-imagem {
-    height: 430px;
-}
-
-.conteudo-secundario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin-top: 48px;
-}
-
-.conteudo-secundario-titulo {
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    font-family: 'righteous', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFF2E7;
-    margin-bottom: 16px;
-}
-
-.conteudo-secundario-paragrafo {
-    font-family: 'sarala', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #ECD6C4;
-}
-
-.rodape {
-    padding: 32px;
-    border-top: 0.4px solid #FFF2E7;
-}
-
-.rodape-imagem {
-    height: 48px;
-    display: block;
-    margin: 0 auto;
+.tabela {
+  font-family: "arial";
+  font-size: 25px;
 }
